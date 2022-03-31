@@ -2,7 +2,7 @@
 ## Description
 A discord.js bot that is capable to display server information and wipe dates. It updates wipe times at every midnight. (it also updates if you restart it, so you can leave the bot offline and start it after every wipe.)
 ## Here is how it looks like
-![Example](https://cdn.discordapp.com/attachments/956232582738116690/959150058111127582/unknown.png)  
+![Example](https://cdn.discordapp.com/attachments/927263226188673024/955833854537654413/unknown.png)  
 ## Set-up Guide:
 Install [node.js](https://nodejs.org/en/)
 Download the repository  
