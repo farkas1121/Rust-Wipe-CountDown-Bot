@@ -1,0 +1,15 @@
+{
+  "name": "discord-wipe-countdown-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farkas",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "node-schedule": "^2.1.0"
+  }
+}

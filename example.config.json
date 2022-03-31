@@ -1,0 +1,26 @@
+{
+    "Token": "",
+    "Channel_ID": "",
+    "Status_Message": "Wipes",
+    "Color": "#FFFFFF",
+    "Title": "__**Server Info**__",
+    "Description": "Welcome to our official discord server!\nLink your discord accounts for a free discord kit.\nPlease make sure to read the rules.\nFind our servers under **Modded** and **Community** Tab.",
+    "Thumbnail": "https://c.tenor.com/VFFJ8Ei3C2IAAAAM/rickroll-rick.gif",
+    "Image": "",
+    "Footer": "Created by Farkas.",
+    "Inline_Fields": true,
+    "Servers": [
+        {
+            "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
+            "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
+            "Timestamp": "1649035410",
+            "Wipecycle_Days": "7"
+        },
+        {
+            "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
+            "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
+            "Timestamp": "1649015410",
+            "Wipecycle_Days": "7"
+        }
+    ]
+}
