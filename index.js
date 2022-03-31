@@ -11,14 +11,14 @@ client.on('ready', async () => {
         const Channel = client.channels.cache.get(config.Channel_ID);
         const ChannelMessages = await Channel.messages.fetch();
         let SentMessageID;
+        let SentMessage;
 
         for (let [id, values] of ChannelMessages) {
             if (values.author.id == client.user.id) {
                 SentMessageID = id;
             }
         }
-
-        let SentMessage;
+        
         if (SentMessageID) {
             SentMessage = await Channel.messages.fetch(SentMessageID);
             SentMessage.edit({ embeds: [CreateEmbed()] });
