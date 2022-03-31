@@ -55,4 +55,4 @@ function CreateEmbed() {
     return Embed;
 }
 
-client.login(config.Channel_ID);
+client.login(config.Token);
