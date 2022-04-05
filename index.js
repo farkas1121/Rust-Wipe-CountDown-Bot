@@ -18,7 +18,7 @@ client.on('ready', async () => {
                 SentMessageID = id;
             }
         }
-        
+
         if (SentMessageID) {
             SentMessage = await Channel.messages.fetch(SentMessageID);
             SentMessage.edit({ embeds: [CreateEmbed()] });
@@ -42,12 +42,22 @@ function CreateEmbed() {
         .setImage(config.Image)
         .setDescription(config.Description)
         .setFooter({ text: config.Footer });
-        config.Servers.forEach(server => {
+    config.Servers.forEach(server => {
         let WipeTime = parseInt(server.Timestamp);
         let CurrentTime = Math.floor(Date.now() / 1000);
+        let i = 0;
+
+        if (server.WipeCycle_Days.length == 0) {
+            return;
+        }
+
         if (CurrentTime > WipeTime) {
             do {
-                WipeTime = WipeTime + (parseInt(server.Wipecycle_Days) * 86400);
+                WipeTime = WipeTime + (parseInt(server.WipeCycle_Days[i]) * 86400);
+                i++;
+                if(server.WipeCycle_Days.length == i){
+                    i = 0;
+                }
             } while (CurrentTime > WipeTime);
         }
         Embed.addField(server.Name, server.Description + "\n" + `Next wipe: (<t:${WipeTime}:D>) - <t:${WipeTime}:R>`, config.Inline_Fields)

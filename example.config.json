@@ -13,14 +13,20 @@
         {
             "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
             "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
-            "Timestamp": "1649035410",
-            "Wipecycle_Days": "7"
+            "Timestamp": "1648641600",
+            "WipeCycle_Days": [
+                "4",
+                "3"
+            ]
         },
         {
             "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
             "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
-            "Timestamp": "1649015410",
-            "Wipecycle_Days": "7"
+            "Timestamp": "1648641600",
+            "WipeCycle_Days": [
+                "4",
+                "3"
+            ]
         }
     ]
 }
