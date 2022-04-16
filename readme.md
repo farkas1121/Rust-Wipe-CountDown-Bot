@@ -1,4 +1,4 @@
-# Rust Wipe Countdown bot
+# Rust Wipe Countdown and Map Vote bot
 ## Description
 A discord.js bot that is capable to display server information and wipe dates. It updates wipe times at every midnight. (it also updates if you restart it, so you can leave the bot offline and start it after every wipe.)
 ## Here is how it looks like
