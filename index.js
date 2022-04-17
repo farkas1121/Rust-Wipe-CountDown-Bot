@@ -6,13 +6,13 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 let guild;
 
 client.on('ready', async () => {
-    client.user.setActivity(config.Status_Message, { type: "WATCHING" })
+    client.user.setActivity(config.status_message, { type: "WATCHING" })
 
     console.log(`Connected to: ${client.user.tag}`)
-    guild = client.guilds.cache.get(config.Guild_ID);
+    guild = client.guilds.cache.get(config.guild_id);
 
-    if (config.Channel_ID) {
-        const Channel = client.channels.cache.get(config.Channel_ID);
+    if (config.channel_id) {
+        const Channel = client.channels.cache.get(config.channel_id);
         const ChannelMessages = await Channel.messages.fetch();
         let SentMessageID;
         let SentMessage;
@@ -40,31 +40,31 @@ client.on('ready', async () => {
 
 function CreateEmbed() {
     const Embed = new MessageEmbed()
-        .setColor(config.Color)
-        .setTitle(config.Title)
-        .setThumbnail(config.Thumbnail)
-        .setImage(config.Image)
-        .setDescription(config.Description)
-        .setFooter({ text: config.Footer });
-    config.Servers.forEach(async server => {
-        let WipeTime = server.Timestamp;
+        .setColor(config.color)
+        .setTitle(config.title)
+        .setThumbnail(config.thumbnail)
+        .setImage(config.image)
+        .setDescription(config.description)
+        .setFooter({ text: config.footer });
+    config.servers.forEach(async server => {
+        let WipeTime = server.timestamp;
         let CurrentTime = Math.floor(Date.now() / 1000);
         let i = 0;
-        if (server.WipeCycle_Days.length == 0) {
+        if (server.wipecycle_days.length == 0) {
             return;
         }
 
         if (CurrentTime > WipeTime) {
             do {
-                WipeTime = WipeTime + server.WipeCycle_Days[i] * 86400;
+                WipeTime = WipeTime + server.wipecycle_days[i] * 86400;
                 i++;
 
-                if (server.WipeCycle_Days.length == i) {
+                if (server.wipecycle_days.length == i) {
                     i = 0;
                 }
             } while (CurrentTime > WipeTime);
         }
-        Embed.addField(server.Name, server.Description + "\n" + `Next wipe: (<t:${WipeTime}:D>) - <t:${WipeTime}:R>`, config.Inline_Fields)
+        Embed.addField(server.name, server.description + "\n" + `Next wipe: (<t:${WipeTime}:D>) - <t:${WipeTime}:R>`, config.inline_fields)
 
         if (CurrentTime > WipeTime - 86400) {
             let found = false;
@@ -97,7 +97,7 @@ function CreateEmbed() {
             }
 
             let mapchannel = await guild.channels.create(server.map_vote.channel_name);
-            mapchannel.setParent(config.categoryid);
+            mapchannel.setParent(config.category_id);
 
             let maps = [];
             if (server.map_vote.map_count > response.results.length) {
@@ -134,4 +134,4 @@ function Random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-client.login(config.Token);
+client.login(config.token);

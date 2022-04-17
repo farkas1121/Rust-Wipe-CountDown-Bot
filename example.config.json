@@ -1,32 +1,45 @@
 {
-    "Token": "",
-    "Channel_ID": "",
-    "Status_Message": "Wipes",
-    "Color": "#FFFFFF",
-    "Title": "__**Server Info**__",
-    "Description": "Welcome to our official discord server!\nLink your discord accounts for a free discord kit.\nPlease make sure to read the rules.\nFind our servers under **Modded** and **Community** Tab.",
-    "Thumbnail": "https://c.tenor.com/VFFJ8Ei3C2IAAAAM/rickroll-rick.gif",
-    "Image": "",
-    "Footer": "Created by Farkas.",
-    "Inline_Fields": true,
-    "Servers": [
+    "token": "",
+    "rustmaps_api_key": "",
+    "guild_id": "",
+    "channel_id": "",
+    "category_id": "",
+    "status_message": "Wipes",
+    "color": "#FFFFFF",
+    "title": "__**Server Info**__",
+    "description": "Welcome to our official discord server!\nLink your discord accounts for a free discord kit.\nPlease make sure to read the rules.\nFind our servers under **Modded** and **Community** Tab.",
+    "thumbnail": "https://c.tenor.com/VFFJ8Ei3C2IAAAAM/rickroll-rick.gif",
+    "image": "",
+    "footer": "Created by Farkas.",
+    "inline_fields": true,
+    "servers": [
         {
-            "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
-            "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
-            "Timestamp": "1648641600",
-            "WipeCycle_Days": [
-                "4",
-                "3"
-            ]
+            "name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
+            "description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
+            "timestamp": 1650189600,
+            "wipecycle_days": [
+                7
+            ],
+            "map_vote": {
+                "enabled": true,
+                "rustmaps_filter_id": "meewg00XM0Kp4tCSFU8p6A",
+                "map_count": 3,
+                "channel_name": "trio2x"
+            }
         },
         {
-            "Name": "__**[EU] Imaginary Server Solo/Duo/Trio 2x**__",
-            "Description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 3\n:small_blue_diamond:BP Wipes: Weekly",
-            "Timestamp": "1648641600",
-            "WipeCycle_Days": [
-                "4",
-                "3"
-            ]
+            "name": "__**[EU] Imaginary Server Solo Only 2x**__",
+            "description": "`client.connect 10.0.0.1`\n:small_blue_diamond:Group Limit: 1\n:small_blue_diamond:BP Wipes: Weekly",
+            "timestamp": 1650204000,
+            "wipecycle_days": [
+                7
+            ],
+            "map_vote": {
+                "enabled": true,
+                "rustmaps_filter_id": "meewg00XM0Kp4tCSFU8p6A",
+                "map_count": 3,
+                "channel_name": "solo2x"
+            }
         }
     ]
 }
