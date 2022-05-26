@@ -1,7 +1,7 @@
 {
   "name": "discord-wipe-countdown-bot",
   "version": "1.0.0",
-  "description": "A discord.js bot that is capable to display server information and wipe dates.",
+  "description": "A discord.js bot that displays server information and wipe dates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,15 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "node-fetch": "^2.6.7",
     "node-schedule": "^2.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/farkasmilan1121/Rust-Wipe-CountDown-Bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/farkasmilan1121/Rust-Wipe-CountDown-Bot/issues"
-  },
-  "homepage": "https://github.com/farkasmilan1121/Rust-Wipe-CountDown-Bot#readme"
+  }
 }
