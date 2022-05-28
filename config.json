@@ -1,25 +1,76 @@
 {
     "token": "",
     "channel_id": "977669936728133693",
-    "status": "Wipes",
-    "color": "#2058ff",
-    "title": "__**Server Info**__",
+    "color": "#0c7cfc",
     "description": "",
     "thumbnail": "",
     "image": "",
-    "footer": "Dates are converted to your timezone.",
-    "inline_fields": false,
+    "inline_fields": true,
     "servers": [
         {
-            "name": "__**:flag_eu: Imaginary Server Solo Only 2x**__",
-            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Weekly & Bi-Weekly BP",
-            "timestamp": 1654250845,
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
             "wipecycle_days": [7]
         },
         {
-            "name": "__**:flag_eu: Imaginary Server Solo Only 2x**__",
-            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Weekly & Bi-Weekly BP",
-            "timestamp": 1647712800,
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
+            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1653586669,
             "wipecycle_days": [7]
         }
     ]
