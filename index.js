@@ -57,7 +57,7 @@ function CreateEmbed() {
             config.servers[i].name,
             config.servers[i].description +
                 "\n" +
-                `• Map Wipe: <t:${GetWipe(config.servers[i].timestamp, config.servers[i].wipecycle_days)}:D> <t:${GetWipe(
+                `• Next Wipe: <t:${GetWipe(config.servers[i].timestamp, config.servers[i].wipecycle_days)}:D> <t:${GetWipe(
                     config.servers[i].timestamp,
                     config.servers[i].wipecycle_days
                 )}:R>`,
@@ -86,12 +86,12 @@ function GetWipe(wipetime, wipecycle_days) {
         do {
             wipetime += wipecycle_days[i] * 86400;
             i++;
-
             if (wipecycle_days.length == i) {
                 i = 0;
             }
         } while (currenttime > wipetime);
     }
+    
     if (wipetime > GetForcedWipe()) {
         wipetime = GetForcedWipe();
     }
