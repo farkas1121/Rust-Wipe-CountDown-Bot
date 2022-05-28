@@ -2,23 +2,23 @@
     "token": "",
     "channel_id": "977669936728133693",
     "status": "Wipes",
-    "color": "#FFFFFF",
+    "color": "#2058ff",
     "title": "__**Server Info**__",
-    "description": "Welcome to our official discord server!\nWe are a server that focuses on players and community. We want high quality servers for everyone to enjoy.\nLink your discord accounts here: <#954819901426663535> for a free discord kit.\nPlease make sure to read the rules.\nFind our servers under **Modded** and **Community**.",
-    "thumbnail": "https://c.tenor.com/VFFJ8Ei3C2IAAAAM/rickroll-rick.gif",
+    "description": "",
+    "thumbnail": "",
     "image": "",
     "footer": "Dates are converted to your timezone.",
     "inline_fields": false,
     "servers": [
         {
-            "name": "__**[EU] Imaginary Server Solo Only 2x**__",
-            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Bi-Weekly",
-            "timestamp": 1647712800,
+            "name": "__**:flag_eu: Imaginary Server Solo Only 2x**__",
+            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Weekly & Bi-Weekly BP",
+            "timestamp": 1654250845,
             "wipecycle_days": [7]
         },
         {
-            "name": "__**[EU] Imaginary Server Solo Only 2x**__",
-            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Bi-Weekly",
+            "name": "__**:flag_eu: Imaginary Server Solo Only 2x**__",
+            "description": "IP: `client.connect 192.168.0.1`\nGroup Limit: 1\nBP Wipes: Weekly & Bi-Weekly BP",
             "timestamp": 1647712800,
             "wipecycle_days": [7]
         }
