@@ -8,15 +8,39 @@
     "inline_fields": true,
     "servers": [
         {
-            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
-            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
-            "timestamp": 1653673069,
+            "name": "**:flag_eu: Bestrust Main 2x**",
+            "description": "• IP: `connect main2x.bestrustservers.com:28017`\n• No Group Limit\n• BP Wipes: Weekly",
+            "timestamp": 1652536800,
             "wipecycle_days": [7]
         },
         {
-            "name": "**:flag_eu: Imaginary Server Solo Only 2x**",
-            "description": "• IP: `client.connect 192.168.0.1`\n• Group Limit: 1\n• BP Wipes: Weekly & Bi-Weekly BP",
-            "timestamp": 1653673069,
+            "name": "**:flag_eu: Bestrust Max4 2x**",
+            "description": "• IP: `connect 51.195.60.77:28023`\n• Group Limit: 4\n• BP Wipes: Weekly",
+            "timestamp": 1647777600,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Bestrust Solo Only 2x**",
+            "description": "• IP: `connect solo2x.bestrustservers.com:28027`\n• Group Limit: 1\n• BP Wipes: Bi-Weekly",
+            "timestamp": 1648288800,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Bestrust Solo/Duo/Trio 2x**",
+            "description": "• IP: `connect trio2x.bestrustservers.com:28021`\n• Group Limit: 3\n• BP Wipes: Weekly",
+            "timestamp": 1647165600,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Bestrust Solo/Duo 2x**",
+            "description": "• IP: `connect duo2x.bestrustservers.com:28025`\n• Group Limit: 2\n• BP Wipes: Weekly",
+            "timestamp": 1647943200,
+            "wipecycle_days": [7]
+        },
+        {
+            "name": "**:flag_eu: Bestrust Solo/Duo 2x #2**",
+            "description": "• IP: `connect 51.195.60.77:28021`\n• Group Limit: 2\n• BP Wipes: Weekly",
+            "timestamp": 1648116000,
             "wipecycle_days": [7]
         }
     ]

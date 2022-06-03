@@ -91,7 +91,7 @@ function GetWipe(wipetime, wipecycle_days) {
             }
         } while (currenttime > wipetime);
     }
-    
+
     if (wipetime > GetForcedWipe()) {
         wipetime = GetForcedWipe();
     }
@@ -112,7 +112,7 @@ function GetForcedWipe() {
 
 function GetFirstThursdayOfMonth(year, month) {
     let first = new Date(year, month, 1);
-    first.setUTCHours(18);
+    first.setTime(first.getTime() + 20 * 60 * 60 * 1000);
 
     if (first.getUTCDay() != 4) {
         do {
