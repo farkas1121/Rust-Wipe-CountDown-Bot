@@ -13,8 +13,8 @@ client.on("ready", () => {
 async function SendEmbeds() {
     const channel = client.channels.cache.get(config.channel_id);
     const sentmessages = Array.from((await channel.messages.fetch()).filter((m) => m.author.id === client.user.id).values());
-    forcewipeinfo = sentmessages[1];
-    serverinfo = sentmessages[0];
+    let forcewipeinfo = sentmessages[1];
+    let serverinfo = sentmessages[0];
 
     if (forcewipeinfo) {
         forcewipeinfo.edit({ embeds: [CreateForceWipeEmbed()] });
@@ -42,6 +42,7 @@ function CreateEmbed() {
     const Embed = new MessageEmbed()
         .setColor(config.color)
         .setTitle("__**Server Information & Wipe Schedule**__")
+        .setDescription(config.description)
         .setThumbnail(config.thumbnail)
         .setImage(config.image)
         .setFooter({ text: "📆 Dates are converted to your timezone." });
